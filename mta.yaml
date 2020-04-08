@@ -1,0 +1,12 @@
+ID: Test2
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: njs
+   type: nodejs
+   path: njs
+   provides:
+    - name: njs_api
+      properties:
+         url: ${default-url}
